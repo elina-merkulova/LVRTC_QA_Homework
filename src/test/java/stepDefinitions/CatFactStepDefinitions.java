@@ -37,7 +37,7 @@ public class CatFactStepDefinitions {
         }
     }
 
-    @When("request with maximum {int} amount of breeds displayed is made")
+    @When("request with maximum of {int} breeds displayed is made")
     public void get_cat_breeds(Integer length) throws JsonProcessingException {
         List<Breed> response = requesters.getBreeds(length);
         breedCount = response.size();
