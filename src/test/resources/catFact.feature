@@ -1,3 +1,4 @@
+@all @testFactPipeline
 Feature: Facts about cats
 
   Scenario Outline: Length of the fact provided should NOT exceed limit set in request

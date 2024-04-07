@@ -1,3 +1,4 @@
+@all @testBreedPipeline
 Feature: Cat breed API test
 
   Scenario Outline: Number of received breeds in response should match number passed in request
