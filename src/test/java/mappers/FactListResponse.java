@@ -3,6 +3,18 @@ package mappers;
 import java.util.List;
 
 public class FactListResponse {
+    private List<Fact> data;
+    private String first_page_url;
+    private int from;
+    private int last_page;
+    private String last_page_url;
+    private List<Link> links;
+    private String next_page_url;
+    private String path;
+    private int per_page;
+    private String prev_page_url;
+    private int to;
+    private int total;
     private int current_page;
 
     public List<Fact> getData() {
@@ -109,16 +121,4 @@ public class FactListResponse {
         this.prev_page_url = prev_page_url;
     }
 
-    private List<Fact> data;
-    private String first_page_url;
-    private int from;
-    private int last_page;
-    private String last_page_url;
-    private List<Link> links;
-    private String next_page_url;
-    private String path;
-    private int per_page;
-    private String prev_page_url;
-    private int to;
-    private int total;
 }
